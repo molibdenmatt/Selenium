@@ -2,15 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="100a7516-9185-4ef2-a590-718a6903191b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Selenium_Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Selenium_Python.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collections.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file_reading.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hello_World.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hello_World.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -27,7 +33,49 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.saving_to_file">
+    <configuration name="Collections" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Selenium_Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Collections.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Exceptions" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Selenium_Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exceptions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Hello_World" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Selenium_Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -49,8 +97,54 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="file_reading" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Selenium_Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/file_reading.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="saving_to_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Selenium_Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/saving_to_file.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.saving_to_file" />
+        <item itemvalue="Python.file_reading" />
+        <item itemvalue="Python.Exceptions" />
+        <item itemvalue="Python.Collections" />
         <item itemvalue="Python.Hello_World" />
       </list>
     </recent_temporary>
@@ -81,22 +175,38 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1239" height="184" key="GridCell.Tab.0.bottom" timestamp="1575470786908">
+    <state width="1239" height="184" key="GridCell.Tab.0.bottom" timestamp="1575472395305">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1239" height="184" key="GridCell.Tab.0.bottom/0.23.1280.777/576.-1057.1920.1057@0.23.1280.777" timestamp="1575470786908" />
-    <state width="1239" height="184" key="GridCell.Tab.0.center" timestamp="1575470786907">
+    <state width="1239" height="184" key="GridCell.Tab.0.bottom/0.23.1280.777/576.-1057.1920.1057@0.23.1280.777" timestamp="1575472395305" />
+    <state width="1239" height="184" key="GridCell.Tab.0.center" timestamp="1575472395303">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1239" height="184" key="GridCell.Tab.0.center/0.23.1280.777/576.-1057.1920.1057@0.23.1280.777" timestamp="1575470786907" />
-    <state width="1239" height="184" key="GridCell.Tab.0.left" timestamp="1575470786906">
+    <state width="1239" height="184" key="GridCell.Tab.0.center/0.23.1280.777/576.-1057.1920.1057@0.23.1280.777" timestamp="1575472395303" />
+    <state width="1239" height="184" key="GridCell.Tab.0.left" timestamp="1575472395303">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1239" height="184" key="GridCell.Tab.0.left/0.23.1280.777/576.-1057.1920.1057@0.23.1280.777" timestamp="1575470786906" />
-    <state width="1239" height="184" key="GridCell.Tab.0.right" timestamp="1575470786908">
+    <state width="1239" height="184" key="GridCell.Tab.0.left/0.23.1280.777/576.-1057.1920.1057@0.23.1280.777" timestamp="1575472395303" />
+    <state width="1239" height="184" key="GridCell.Tab.0.right" timestamp="1575472395305">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1239" height="184" key="GridCell.Tab.0.right/0.23.1280.777/576.-1057.1920.1057@0.23.1280.777" timestamp="1575470786908" />
+    <state width="1239" height="184" key="GridCell.Tab.0.right/0.23.1280.777/576.-1057.1920.1057@0.23.1280.777" timestamp="1575472395305" />
+    <state width="1239" height="229" key="GridCell.Tab.1.bottom" timestamp="1575472016526">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1239" height="229" key="GridCell.Tab.1.bottom/0.23.1280.777/576.-1057.1920.1057@0.23.1280.777" timestamp="1575472016526" />
+    <state width="1239" height="229" key="GridCell.Tab.1.center" timestamp="1575472016525">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1239" height="229" key="GridCell.Tab.1.center/0.23.1280.777/576.-1057.1920.1057@0.23.1280.777" timestamp="1575472016525" />
+    <state width="1239" height="229" key="GridCell.Tab.1.left" timestamp="1575472016525">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1239" height="229" key="GridCell.Tab.1.left/0.23.1280.777/576.-1057.1920.1057@0.23.1280.777" timestamp="1575472016525" />
+    <state width="1239" height="229" key="GridCell.Tab.1.right" timestamp="1575472016526">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1239" height="229" key="GridCell.Tab.1.right/0.23.1280.777/576.-1057.1920.1057@0.23.1280.777" timestamp="1575472016526" />
     <state x="141" y="50" key="SettingsEditor" timestamp="1575460127006">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
@@ -109,5 +219,16 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="548" y="244" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1575402156538" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Exceptions.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
