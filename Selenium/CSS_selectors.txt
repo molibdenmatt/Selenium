@@ -1,0 +1,11 @@
+div - by tag
+.red - by class = red
+#fname - by ID
+div.row - div elements with row class
+[aria-hidden="true"] - attribute set to hidden
+li a - all a elements that are children of li
+li + a - every first a of every li
+li, a - all li and a tags
+p:first-child - p being first child of parent tag
+p:last-child - p being last child of parent tag
+p:nth-child(2) - p being 2nd child
