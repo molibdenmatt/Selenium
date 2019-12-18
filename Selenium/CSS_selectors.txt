@@ -1,11 +1,21 @@
 div - by tag
+div a - child or subchild
+div > a - direct child
+li + a - every first a of every li
+li, a - all li and a tags
+
 .red - by class = red
 #fname - by ID
 div.row - div elements with row class
+
 [aria-hidden="true"] - attribute set to hidden
-li a - all a elements that are children of li
-li + a - every first a of every li
-li, a - all li and a tags
+input[name='username']
+
+a[id^='id_prefix_'] - A link with an “id” that starts with the text “id_prefix_”
+a[id$='_id_sufix'] - A link with an “id” that ends with the text “_id_sufix”
+a[id*='id_pattern'] - A link with an “id” that contains the text “id_pattern”
+
+a:contains('Log Out') - a element with text block "Log Out"
 p:first-child - p being first child of parent tag
 p:last-child - p being last child of parent tag
 p:nth-child(2) - p being 2nd child
