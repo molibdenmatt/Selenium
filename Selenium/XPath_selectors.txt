@@ -1,0 +1,24 @@
+
+//@category - all attributes of 'category' tage
+//author/text() - find text of an 'author' tag
+//th[text()='Month'] - find th element with 'Month' text
+//shelves//book[last()] - last element
+//book[@country] - book having a 'country' attribute
+//book[@country="Poland"]/title/text() - value of 'title' tag
+//input[@name='fname'] - name attribute with value 'fname'
+//input[@id='fname']/.. - id attrirbute with value 'fname' -> 1 step up in hierarchy
+//book[year>2000 and year <2005] - elementy book o subtagu year > 2000 i <2005
+//shelves//book[1]/@ - wartosc wszystkich atrybutow pierwszego book
+
+AXES:
+//book/child::lost - dzieci book o nazwie lost
+//unknown/book/following-sibling:: - dowolne rodzenstwo book
+//unknown//book[1]/following:: - element nastepujacy po pierwszym book
+//book[title="Heavy matter"]/parent:: - rodzic booka, ktory ma title
+//magazine/title | //magazine/year - znajdz to i to(pipe)
+//title[starts-with(text(), "T")] - wartosc title zaczyna sie od T
+//title[contains(text(), "Dark")]
+//[starts-with(name(), "a")] - nazwa taga(name) zaczyna sie od "a"
+//book[count(author)=0] - znajdz booki, ktore maja 0 authorow w sobie
+count(//shelves/book) - policz ile jest elementow book
+name(//book/*[1]) - podaj nazwe pierwszego elementu booka
