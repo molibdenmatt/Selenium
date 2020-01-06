@@ -195,5 +195,7 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+# Project files
 new.txt
+Selenium/screenshots/
 # End of https://www.gitignore.io/api/python,pycharm

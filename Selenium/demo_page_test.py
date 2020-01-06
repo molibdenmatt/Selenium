@@ -3,8 +3,8 @@ import time
 
 from selenium import webdriver
 import selenium.webdriver.common.by
-import selenium.webdriver.common.keys
-import selenium.webdriver.support.select
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.support.select import Select
 from webdriver_manager.chrome import ChromeDriverManager
 
 # driver = webdriver.Chrome("drivers/chromedriver") # Manual method
@@ -53,17 +53,24 @@ print(driver.find_element_by_xpath("//input[@name='fname']/following-sibling::ta
 num_of_elements = len(driver.find_elements_by_xpath("//th"))
 print("Number of th elements on this page: " + str(num_of_elements))
 
-# Interaction with elements
+# Interaction with elements - click
 driver.find_element_by_id("clickOnMe").click() # Direct method
 driver.switch_to.alert.dismiss()
 click_me_button = driver.find_element_by_id("clickOnMe")
 click_me_button.click()
 driver.switch_to.alert.accept()
 
+
+
+
 # Keyboard keys
 driver.find_element_by_id("fname").send_keys("Test01234")
-driver.find_element_by_name("password").send_keys(Keys.ENTER)
-print(driver.find_element_by_id("fname").get_attribute("value"))
+# driver.find_element_by_name("password").send_keys(Keys.ENTER)
+print("You have entered: " + driver.find_element_by_id("fname").get_attribute("value"))
+
+# Clear input
+username_input = driver.find_element_by_id("fname")
+username_input.clear()
 
 # Select from list
 auto_select = Select(driver.find_element_by_tag_name("select"))
@@ -100,14 +107,9 @@ for window in window_names:
         driver.switch_to.window(window)
 print("Current window: " + driver.title)
 
-# iframe
-
+# Screenshot
+driver.save_screenshot("screenshots/screen.png")
 
 time.sleep(3)
-
-
-# Open new window and close the focused window
-# driver.find_element_by_id("newPage").click()
 # driver.close()  # Focused window
-
 driver.quit()  # All windows
