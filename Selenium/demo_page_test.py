@@ -107,6 +107,9 @@ for window in window_names:
         driver.switch_to.window(window)
 print("Current window: " + driver.title)
 
+
+
+
 # Screenshot
 driver.save_screenshot("screenshots/screen.png")
 
