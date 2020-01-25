@@ -8,7 +8,7 @@ from selenium.webdriver.support.select import Select
 from webdriver_manager.chrome import ChromeDriverManager
 
 # driver = webdriver.Chrome("drivers/chromedriver") # Manual method
-driver = webdriver.Chrome(ChromeDriverManager().install())  # Menage drivers with webdriver_manager
+driver = webdriver.Chrome(ChromeDriverManager().install())  # Manage drivers with webdriver_manager
 
 # driver.get("http://www.google.com")
 cwd = os.getcwd()  # Current working directory
@@ -60,9 +60,6 @@ click_me_button = driver.find_element_by_id("clickOnMe")
 click_me_button.click()
 driver.switch_to.alert.accept()
 
-
-
-
 # Keyboard keys
 driver.find_element_by_id("fname").send_keys("Test01234")
 # driver.find_element_by_name("password").send_keys(Keys.ENTER)
@@ -106,9 +103,6 @@ for window in window_names:
     if window != current_window_name:
         driver.switch_to.window(window)
 print("Current window: " + driver.title)
-
-
-
 
 # Screenshot
 driver.save_screenshot("screenshots/screen.png")
